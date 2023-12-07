@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Satisfy&display=swap');
+:root {
+    --cor-primaria : #BFBFBF;
+    --cor-secundaria: #8AA6A3;
+    --cor-terceira: #10403B;
+    --cor-quarta: #4C5958;
+    --cor-quinta: #127369;
+    --cor-sexta:#DCDCDC;
+    --cor-navegacao:white;
+    --cor-ativo:blue;
+    --cor-biblia: blue;
+
+    --texto-navegacao: 'Lato', sans-serif;
+    --texto-conteudo: 'Satisfy', cursive;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao {
+    background-color: var(--cor-navegacao);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    background-color: var(--cor-sexta);
+}
+.navegacao-imagem{
+    width: 4%;
+}
+
+.navegacao-links{
+    display: flex;
+    gap:  30px;
+    font-size: 1.33rem;
+    font-family: var(--texto-navegacao);
+    font-weight: 900;
+}
+
+.navegacao-redessociais{
+    display: flex;
+    align-items: center;
+}
+
+.navegacao-redessociais-imagem{
+    width: 80%;
+}
+
+.navegacao-links-paginas{
+    text-decoration: none;
+    color: var(--cor-terceira);
+}
+.navegacao-links-paginas:hover{
+    text-decoration: underline;
+    color: var(--cor-quinta);
+    transform: scale(1.1);
+}
+
+#active{
+    color: var(--cor-ativo);
+}
+
+.conteudo-mensagem{
+    background-image: url("/images/agua.jpg");
+    background-repeat: repeat;
+    padding: 1% 0;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-mensagem-texto{
+    font-family: var(--texto-conteudo);
+    font-weight: 400 bold;
+    font-size: 4rem;
+    color: var(--cor-quarta);
+}
+
+#biblia{
+    font-size: 2rem;
+    color: var(--cor-biblia);
+}
+
+.conteudo-explicacaonome{
+    background-color: var(--cor-navegacao);
+    font-family: var(--texto-navegacao);
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+}
+
+.conteudo-explicacaonome-titulo{
+    font-weight: bold;
+}
+
+.conteudo-explicacaonome-texto{
+    font-weight: bold;
+}
+
+.conteudo-cultos{
+    display: flex;
+    background-image: url(/images/fundoculto.jpg);
+    font-family: var(--texto-conteudo);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-cultos-titulo{
+   font-size: 5rem;
+}
+
+.contuedo-cultos-horarios{
+    display: flex;
+    font-size: 2.5rem;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contuedo-cultos-horario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.conteudo-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--texto-navegacao);
+    font-weight: 900;
+}
+
+.conteudo-grid-blocos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.conteudo-grid-bloco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+.conteudo-grid-bloco-pin:hover{
+    transform: scale(1.5);
+}
+.conteudo-localizacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-navegacao);
+    font-family: var(--texto-navegacao);
+    font-weight: 900;
+}
+
+.conteudo-localizacao-texto{
+    color: var(--cor-terceira);
+}
+
+.conteudo-localizacao-mapa{
+    width: 100%;
+}
+
