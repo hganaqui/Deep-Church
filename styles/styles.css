@@ -179,3 +179,8 @@ main{
     width: 100%;
 }
 
+.rodape{
+    padding: 1% 0;
+    background-color: var(--cor-primaria) ;
+}
+
