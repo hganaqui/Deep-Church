@@ -249,3 +249,22 @@ main{
 .contato-redessociais-imagem{
     text-decoration: none;
 }
+
+@media (max-width:600px) {
+
+    .navegacao {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navegacao-imagem{
+        width: 15%;
+    }
+    .navegacao-links{
+        display: flex;
+        gap:  20px;
+        font-size: 0.70rem;
+        font-family: var(--texto-navegacao);
+        font-weight: 900;
+    }
+}
