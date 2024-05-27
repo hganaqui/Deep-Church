@@ -267,4 +267,10 @@ main{
         font-family: var(--texto-navegacao);
         font-weight: 900;
     }
+
+    #dizimo-imagem{
+        width: 50%;
+        margin: 5%;
+    }
+    
 }
