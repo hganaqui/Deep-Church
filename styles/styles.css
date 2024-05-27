@@ -276,5 +276,7 @@ main{
     .conteudo-mensagem-texto{
         text-align: center;
     }
-    
+    .contato-grupo{
+        width: 80%;
+    }
 }
