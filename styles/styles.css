@@ -186,6 +186,25 @@ main{
     background-color: var(--cor-primaria) ;
 }
 
+/* Ministerios*/
+.ministerios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.ministerios-ministerio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    width: 100%;
+}
+
+.ministerios-imagem {
+}
+
 /* Dizimo*/
 
 .dizimo{
