@@ -277,6 +277,18 @@ main{
         text-align: center;
     }
     .contato-grupo{
-        width: 80%;
+        width: 90%;
+    }
+
+    .contuedo-cultos-horario {
+        text-align: center;
+    }
+
+    .conteudo-localizacao{
+        text-align: center;
+    }
+
+    .conteudo-grid-bloco{
+        text-align: center;
     }
 }
