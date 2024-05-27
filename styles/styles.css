@@ -253,7 +253,6 @@ main{
 @media (max-width:600px) {
 
     .navegacao {
-        justify-content: center;
         align-items: center;
     }
     
