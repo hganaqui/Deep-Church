@@ -29,6 +29,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 main{
@@ -251,10 +252,6 @@ main{
 }
 
 @media (max-width:600px) {
-
-    .navegacao {
-        align-items: center;
-    }
     
     .navegacao-imagem{
         width: 10%;
