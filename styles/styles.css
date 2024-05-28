@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&family=Satisfy&family=Edu+TAS+Beginner:wght@400..700&display=swap');
 :root {
     --cor-primaria : #BFBFBF;
     --cor-secundaria: #8AA6A3;
@@ -14,6 +14,8 @@
 
     --texto-navegacao: 'Lato', sans-serif;
     --texto-conteudo: 'Satisfy', cursive;
+    --texto-ministerios: 'Edu+TAS+Beginner', cursive;
+
 
 }
 
@@ -192,18 +194,31 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+    background-color: white;
 }
 
 .ministerios-ministerio {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 120px;
     width: 100%;
+    gap:50px;
 }
 
-.ministerios-imagem {
+.ministerios-imagem img{
+    width: 400px;
+}
+
+.ministerios-imagem p{
+    display: none;
+}
+
+.ministerios-texto{
+    font-family: var(--texto-ministerios);
+    font-weight: 700;
+    font-size: 2.00rem;
+    width: 500px;
 }
 
 /* Dizimo*/
@@ -287,5 +302,16 @@ main{
 
     .conteudo-grid-bloco{
         text-align: center;
+    }
+
+    .ministerios-texto{
+        display: none;
+    }
+
+    .ministerios-imagem p{
+        display: block;
+        text-align: center;
+        font-family: var(--texto-ministerios);
+        font-size: 1.00rem;
     }
 }
